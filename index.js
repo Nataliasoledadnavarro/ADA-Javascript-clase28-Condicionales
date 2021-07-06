@@ -139,26 +139,20 @@ else{
 }*/
 
 // EJERCICIO 3 //
-/*const color = prompt("¿Cuál es el color que representa a la IVE?");
 
-  if(color === "verde"){
-    alert("Podés avanzar!");
-  }
-
-  else{
-    alert("No podes avanzar");
-  }*/
-
-let puedeAvanzar = () => {
-  const color = prompt("Ingrese un color del semáforo");
-
-  if (color === "verde") {
-    alert("Podés avanzar!");
-  } else {
-    alert("No podés avanzar");
+/*let puedeAvanzar = (color) => {
+  
+  if (color == "verde") {
+    return true;
+  } 
+  else {
+    return false;
   }
 }
 
+let respuestaDos = puedeAvanzar("rojo");
+let respuestaUno = puedeAvanzar("verde");
 
-puedeAvanzar();
+console.log(respuestaUno);
+console.log(respuestaDos);*/
 
