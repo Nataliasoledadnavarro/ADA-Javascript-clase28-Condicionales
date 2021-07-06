@@ -156,3 +156,18 @@ let respuestaUno = puedeAvanzar("verde");
 console.log(respuestaUno);
 console.log(respuestaDos);*/
 
+// EJERCICIO 9 //
+
+/*const esPositivoONegativo = (numero) => {
+  
+  if (numero >= 1){return "positivo"}
+      
+  else{ return "negativo"}
+}
+      
+let resultadoUno = esPositivoONegativo(3);
+
+let resultadoDos = esPositivoONegativo(-5);
+
+console.log(resultadoUno);
+console.log(resultadoDos);*/
