@@ -159,15 +159,36 @@ console.log(respuestaDos);*/
 // EJERCICIO 9 //
 
 /*const esPositivoONegativo = (numero) => {
-  
-  if (numero >= 1){return "positivo"}
-      
-  else{ return "negativo"}
-}
-      
-let resultadoUno = esPositivoONegativo(3);
+  if (numero >= 0) {
+    return "positivo";
+  } else {
+    return "negativo";
+  }
+};
+
+let resultadoUno = esPositivoONegativo(0);
 
 let resultadoDos = esPositivoONegativo(-5);
 
 console.log(resultadoUno);
 console.log(resultadoDos);*/
+
+// EJERCICIO 10 //
+
+/*const avanzarSemaforo = (color) => {
+  if (color === "verde"){
+    return "amarillo"
+  }
+    
+   else if (color === "amarillo") {
+     return "rojo";
+   }
+  
+  else if (color === "rojo") {
+    return "verde";
+  }
+}
+
+console.log(avanzarSemaforo("verde"));
+
+console.log(avanzarSemaforo("rojo"));*/
