@@ -156,6 +156,22 @@ let respuestaUno = puedeAvanzar("verde");
 console.log(respuestaUno);
 console.log(respuestaDos);*/
 
+//EJERCICIO 5 //
+
+/*const esConsonante = (letra) =>{
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+    return false
+  }
+  else { return true
+      }
+}
+
+console.log(esConsonante("d"));
+
+console.log(esConsonante("n"));
+
+console.log(esConsonante("e"));*/
+
 // EJERCICIO 9 //
 
 /*const esPositivoONegativo = (numero) => {
