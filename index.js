@@ -138,23 +138,35 @@ else{
   
 }*/
 
+// EJERCICIO 1 //
+/*const puedeVerPelicula = (edad, tieneAutorizacion) => {
+  if (edad >= 15 || tieneAutorizacion === true){
+    return true;
+  }
+  else{ return false;
+      }
+}*/
+
+// EJERCICIO 2 //
+/*const estaEnRango = (valor, minimo, maximo) => {
+  if (valor >= minimo && valor <= maximo) {
+    return true
+  }
+  else { return false}
+}*/
+
 // EJERCICIO 3 //
 
 /*let puedeAvanzar = (color) => {
-  
-  if (color == "verde") {
-    return true;
-  } 
-  else {
-    return false;
-  }
-}
+  return color === "verde";
+}*/
 
-let respuestaDos = puedeAvanzar("rojo");
-let respuestaUno = puedeAvanzar("verde");
+// EJERCICIO 4 //
 
-console.log(respuestaUno);
-console.log(respuestaDos);*/
+/*const esVocal = (letra) => {
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") { return true}
+  else { return false}
+}*/
 
 //EJERCICIO 5 //
 
@@ -172,22 +184,45 @@ console.log(esConsonante("n"));
 
 console.log(esConsonante("e"));*/
 
-// EJERCICIO 9 //
+// EJERCICIO 6 //
 
-/*const esPositivoONegativo = (numero) => {
-  if (numero >= 0) {
-    return "positivo";
-  } else {
-    return "negativo";
+/*const puedeRenovarCarnet = ( pasoTest, tieneMultasImpagas, pagoImpuestos) => {
+  if (pasoTest === true && tieneMultasImpagas === false && pagoImpuestos === true) { return true}
+  
+  else { return false}
+}*/
+
+// EJERCICIO 7 //
+
+/*const puedeGraduarse = (asistencia, materiasAprobadas, tesisAprobada) => {
+  
+  if (asistencia >= 75 && materiasAprobadas >= 50 && tesisAprobada === true){
+    return true
   }
-};
+  
+  else { return false}
+}*/
 
-let resultadoUno = esPositivoONegativo(0);
+// EJERCICIO 8 //
 
-let resultadoDos = esPositivoONegativo(-5);
+/*const esParOImpar = (numero) => {
+  if (numero % 2 === 0) { 
+  return "par"}
+  
+  else{ return "impar"}
+}*/
 
-console.log(resultadoUno);
-console.log(resultadoDos);*/
+// EJERCICIO 9 //
+/*const esPositivoONegativo = (numero) => {
+  
+  if (numero >= 0){return "positivo"}
+      
+  else{ return "negativo"}
+}
+      
+let resultadoUno = esPositivoONegativo(3);
+
+let resultadoDos = esPositivoONegativo(-5);*/
 
 // EJERCICIO 10 //
 
@@ -203,8 +238,34 @@ console.log(resultadoDos);*/
   else if (color === "rojo") {
     return "verde";
   }
-}
+}*/
 
-console.log(avanzarSemaforo("verde"));
+// EJERCICIO 11 //
 
-console.log(avanzarSemaforo("rojo"));*/
+/*const obtenerSensacion = (temperatura) => {
+  if (temperatura < 0){return "¡Está helando!"};
+  
+  if (temperatura >= 0 && temperatura < 15) { return "¡Hace frío!"};
+  
+  if (temperatura >= 15 && temperatura < 25){ return "Está lindo"}
+  
+  if (temperatura >= 25 && temperatura < 30) { return "Hace calor"}
+  
+  if (temperatura >= 30) { return "¡Hace mucho calor!"}
+}*/
+
+// EJERCICIO 12 //
+
+/*const obtenerNota = (puntaje) => {
+  if (puntaje < 6) { return "Desaprobado"};
+  
+  if (puntaje >= 6 && puntaje < 7) { return "Regular"};
+  
+  if (puntaje >= 7 && puntaje < 8) { return "Bueno"};
+  
+  if (puntaje >= 8 && puntaje < 10) { return "Muy bueno" };
+  
+  if (puntaje === 10) { return "Excelete"}
+  
+  if (puntaje < 0 || puntaje > 10) { return "Puntaje inválido"}; 
+}*/
