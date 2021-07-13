@@ -269,3 +269,68 @@ let resultadoDos = esPositivoONegativo(-5);*/
   
   if (puntaje < 0 || puntaje > 10) { return "Puntaje inválido"}; 
 }*/
+
+// ejercicio 13 mumuki//
+/*
+
+const jugarPiedraPapelTijera = (jugadorUno, jugadorDos) => {
+  if (jugadorUno === "tijera" && jugadorDos === "piedra") {
+    return "¡Ganó piedra!"
+  } else if (jugadorUno === "piedra" && jugadorDos === "tijera") {
+    return "¡Ganó piedra!"
+  } else if (jugadorUno === "papel" && jugadorDos === "piedra") {
+    return "¡Ganó papel!"
+  } else if (jugadorUno === "piedra" && jugadorDos === "papel") {
+    return "¡Ganó papel!"
+  } else if (jugadorUno === "papel" && jugadorDos === "tijera") {
+    return "¡Ganó tijera!"
+  } else if (jugadorUno === "tijera" && jugadorDos === "papel") {
+    return "¡Ganó tijera!"
+  } else if (jugadorUno === "piedra" && jugadorDos === "piedra") {
+    return "¡Empate!"
+  } else if (jugadorUno === "papel" && jugadorDos === "papel") {
+    return "¡Empate!"
+  } else if (jugadorUno === "tijera" && jugadorDos === "tijera") {
+    return "¡Empate!"
+  }
+
+  else {return "Valor incorrecto"}
+}
+*/
+
+// EJERCICIO en clase //
+
+/*let usuarioUno = prompt("Usuario 1: ¿Piedra, papel o tijera?");
+
+let usuarioDos = prompt("Usuario 2: ¿Piedra, papel o tijera?");
+
+const jugarPiedraPapelOTijera = (usuarioUno, usuarioDos) => {
+  if (usuarioUno === "tijera" && usuarioDos === "piedra") {
+    return alert("Ganó Usuario2");
+  } else if (usuarioUno === "piedra" && usuarioDos === "tijera") {
+    return alert("Ganó Usuario1");
+  } else if (usuarioUno === "papel" && usuarioDos === "piedra") {
+    return alert("Ganó Usuario1");
+  } else if (usuarioUno === "piedra" && usuarioDos === "papel") {
+    return alert("Ganó Usuario2");
+  } else if (usuarioUno === "papel" && usuarioDos === "tijera") {
+    return alert("Ganó Usuario2");
+  } else if (usuarioUno === "tijera" && usuarioDos === "papel") {
+    return alert("Ganó Usuario1");
+  } else if (usuarioUno === "piedra" && usuarioDos === "piedra") {
+    return alert("Empataron!");
+  } else if (usuarioUno === "papel" && usuarioDos === "papel") {
+    return alert("Empataron!");
+  } else if (usuarioUno === "tijera" && usuarioDos === "tijera") {
+    return alert("Empataron!");
+  } else {
+    alert("Valor Incorrecto");
+  }
+}
+ 
+/////FALTA RESOLVER COMO REPETIR LA EJECUCION 3 VECES Y PONER LOS PROMPTS DENTRO DE LA FUNCION./////
+jugarPiedraPapelOTijera(usuarioUno, usuarioDos);
+
+jugarPiedraPapelOTijera(usuarioUno, usuarioDos);
+
+jugarPiedraPapelOTijera(usuarioUno, usuarioDos);*/
