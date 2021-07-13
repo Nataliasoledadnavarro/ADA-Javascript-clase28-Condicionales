@@ -300,23 +300,26 @@ const jugarPiedraPapelTijera = (jugadorUno, jugadorDos) => {
 
 // EJERCICIO en clase //
 
-/*let usuarioUno = prompt("Usuario 1: ¿Piedra, papel o tijera?");
+const jugarPiedraPapelOTijera = () => {
+  let nombreJugadorUno = prompt("Jugador/a 1: Escribí aquí tu nombre!");
+  let nombreJugadorDos = prompt("Jugador/a 2: Escribí aquí tu nombre!");
 
-let usuarioDos = prompt("Usuario 2: ¿Piedra, papel o tijera?");
+  let usuarioUno = prompt(nombreJugadorUno + " : ¿Piedra, papel o tijera?");
 
-const jugarPiedraPapelOTijera = (usuarioUno, usuarioDos) => {
+  let usuarioDos = prompt(nombreJugadorDos + " : ¿Piedra, papel o tijera?");
+
   if (usuarioUno === "tijera" && usuarioDos === "piedra") {
-    return alert("Ganó Usuario2");
+    return alert("Ganó " + nombreJugadorDos);
   } else if (usuarioUno === "piedra" && usuarioDos === "tijera") {
-    return alert("Ganó Usuario1");
+    return alert("Ganó " + nombreJugadorUno);
   } else if (usuarioUno === "papel" && usuarioDos === "piedra") {
-    return alert("Ganó Usuario1");
+    return alert("Ganó " + nombreJugadorUno);
   } else if (usuarioUno === "piedra" && usuarioDos === "papel") {
-    return alert("Ganó Usuario2");
+    return alert("Ganó " + nombreJugadorDos);
   } else if (usuarioUno === "papel" && usuarioDos === "tijera") {
-    return alert("Ganó Usuario2");
+    return alert("Ganó " + nombreJugadorDos);
   } else if (usuarioUno === "tijera" && usuarioDos === "papel") {
-    return alert("Ganó Usuario1");
+    return alert("Ganó " + nombreJugadorUno);
   } else if (usuarioUno === "piedra" && usuarioDos === "piedra") {
     return alert("Empataron!");
   } else if (usuarioUno === "papel" && usuarioDos === "papel") {
@@ -326,11 +329,10 @@ const jugarPiedraPapelOTijera = (usuarioUno, usuarioDos) => {
   } else {
     alert("Valor Incorrecto");
   }
-}
- 
-/////FALTA RESOLVER COMO REPETIR LA EJECUCION 3 VECES Y PONER LOS PROMPTS DENTRO DE LA FUNCION./////
-jugarPiedraPapelOTijera(usuarioUno, usuarioDos);
+};
 
-jugarPiedraPapelOTijera(usuarioUno, usuarioDos);
+jugarPiedraPapelOTijera();
 
-jugarPiedraPapelOTijera(usuarioUno, usuarioDos);*/
+jugarPiedraPapelOTijera();
+
+jugarPiedraPapelOTijera();
