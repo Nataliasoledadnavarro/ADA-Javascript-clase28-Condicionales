@@ -149,10 +149,7 @@ else{
 
 // EJERCICIO 2 //
 /*const estaEnRango = (valor, minimo, maximo) => {
-  if (valor >= minimo && valor <= maximo) {
-    return true
-  }
-  else { return false}
+  return valor >= minimo && valor <= maximo
 }*/
 
 // EJERCICIO 3 //
@@ -164,18 +161,12 @@ else{
 // EJERCICIO 4 //
 
 /*const esVocal = (letra) => {
-  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") { return true}
-  else { return false}
-}*/
+  return (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") 
+  }*/
 
 //EJERCICIO 5 //
-
-/*const esConsonante = (letra) =>{
-  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-    return false
-  }
-  else { return true
-      }
+/*const esConsonante = (letra) => {
+  return esVocal(letra) === false
 }
 
 console.log(esConsonante("d"));
@@ -187,20 +178,13 @@ console.log(esConsonante("e"));*/
 // EJERCICIO 6 //
 
 /*const puedeRenovarCarnet = ( pasoTest, tieneMultasImpagas, pagoImpuestos) => {
-  if (pasoTest === true && tieneMultasImpagas === false && pagoImpuestos === true) { return true}
-  
-  else { return false}
-}*/
+  return pasoTest === true && tieneMultasImpagas === false && pagoImpuestos === true
+  }*/
 
 // EJERCICIO 7 //
-
 /*const puedeGraduarse = (asistencia, materiasAprobadas, tesisAprobada) => {
   
-  if (asistencia >= 75 && materiasAprobadas >= 50 && tesisAprobada === true){
-    return true
-  }
-  
-  else { return false}
+  return asistencia >= 75 && materiasAprobadas >= 50 && tesisAprobada === true
 }*/
 
 // EJERCICIO 8 //
@@ -300,7 +284,7 @@ const jugarPiedraPapelTijera = (jugadorUno, jugadorDos) => {
 
 // EJERCICIO en clase //
 
-const jugarPiedraPapelOTijera = () => {
+/*const jugarPiedraPapelOTijera = () => {
   let nombreJugadorUno = prompt("Jugador/a 1: Escribí aquí tu nombre!");
   let nombreJugadorDos = prompt("Jugador/a 2: Escribí aquí tu nombre!");
 
@@ -335,4 +319,4 @@ jugarPiedraPapelOTijera();
 
 jugarPiedraPapelOTijera();
 
-jugarPiedraPapelOTijera();
+jugarPiedraPapelOTijera();*/
